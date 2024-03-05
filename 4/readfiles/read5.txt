@@ -1,0 +1,26 @@
+The Web and the Internet
+The Web is not identical to the Internet; it is only one of the many Internet-based communication services.
+
+The relation between them may be understood by using the analogy with the global road system.
+
+On the Internet, as in the road system, three elements are essential: the physical connections (roads and cables), the common behaviour (circulation rules and Internet protocol) and the services (mail delivery and the WWW).
+
+The physical connections: cables and roads
+
+Cables are a passive infrastructure, laid down locally by governments and telecoms companies. Cables have different capacity: a single telephone line like the one leading from your home can handle about 7 kilobytes per second, the equivalent of a page of text per second. Optical fibres handle well into the thousand millions of bytes per second.
+
+Although the cables may be of different types and the junctions may be very complicated, they are all interconnected.
+
+On the roads it is possible for you to drive from home out to a far away place, perhaps in another country, passing from highways to country roads. Similarly, you can find a continuous connection through several interchange nodes between your computer at home and the one of a friend in Australia.
+
+The common behaviour: the Internet
+
+Connecting computers to the cables is not enough: to be able to talk to each other they have to agree on a common way of behaving, just like we do when we drive our cars on the roads. The Internet is like the traffic rules: computers must use the cables in an agreed fashion.
+
+Thousands of cars can use the same roads even if they all have different destinations; no problems arise as long as on the road everybody drives on one side, stop for red traffic lights and so on.
+
+The Internet transfers data in little packets between computers. To use the cables between them profitably, computers must obey rules too: they have to use the same communication protocol.
+
+A communication protocol is something you are familiar with if you have ever talked to someone: in a conversation, people know when to start speaking, when to stop, which sounds to make to encourage the other person to continue, and so on. This is an implicit "protocol" for humans. Computers exchanging data over cables need a similar set of rules for behavior.
+
+To be "connected to the Internet", a computer must respect the Internet protocols. It can do so if a compatible layer of software has been installed on it. The common protocol for the Internet is called the Transmission Control Protocol / Internet Protocol or TCP/IP.
