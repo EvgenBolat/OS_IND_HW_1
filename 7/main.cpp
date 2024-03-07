@@ -13,7 +13,7 @@ const char secondPipeName[] = "second.fifo";
 
 int main(int argc, char *argv[])
 {
-    if (argc != 2)
+    if (argc != 3)
     {
         printf("Неверное количество аргументов!\n");
         return 0;
@@ -51,18 +51,22 @@ int main(int argc, char *argv[])
             printf("thread 2: Can\'t read string from pipe 1\n");
             exit(0);
         }
+        char new_str[size_read];
+        int newStrLength = 0;
         char word[size_read];
         int wordLength = 0;
-        for (size_t i = 0; i < size_read; i++)
+        for (int i = size_read - 1; i > -1; --i)
         {
             if (str_buf[i] == '\b' || str_buf[i] == ' ' || str_buf[i] == '\t' || str_buf[i] == '\n')
             {
-                for (size_t j = wordLength; j > 0; j--)
+                for (int j = wordLength - 1; j > -1; --j)
                 {
-                    str_buf[i - j] = word[j - 1];
+                    new_str[newStrLength] = word[j];
+                    ++newStrLength;
                 }
+                new_str[newStrLength] = str_buf[i];
+                ++newStrLength;
                 wordLength = 0;
-                continue;
             }
             else
             {
@@ -70,9 +74,10 @@ int main(int argc, char *argv[])
                 ++wordLength;
             }
         }
-        for (size_t j = wordLength; j > 0; j--)
+        for (int z = wordLength - 1; z > -1; z--)
         {
-            str_buf[size_read - j] = word[j - 1];
+            new_str[newStrLength] = word[z];
+            ++newStrLength;
         }
         int fd_write = 0;
         if ((fd_write = open(secondPipeName, O_WRONLY)) < 0)
@@ -80,7 +85,7 @@ int main(int argc, char *argv[])
             printf("thread 2: Can\'t open pipe 2\n");
             exit(0);
         }
-        int size_write = write(fd_write, str_buf, size_read);
+        int size_write = write(fd_write, new_str, size_read);
         if (size_write != size_read)
         {
             printf("thread 2: Can\'t write all string to pipe 2\n");

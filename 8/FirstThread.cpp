@@ -14,11 +14,12 @@ const char secondPipeName[] = "second.fifo";
 
 int main(int argc, char *argv[])
 {
-    if (argc != 2)
+    if (argc != 3)
     {
         printf("Неверное количество аргументов!\n");
         return 0;
     }
+
     char str_buf[buf_size];
 
     mknod(firtPipeName, S_IFIFO | 0666, 0);
@@ -83,7 +84,7 @@ int main(int argc, char *argv[])
 
     (void)umask(0);
 
-    if ((fd_write = open(argv[1], O_WRONLY | O_CREAT, 0333)) < 0)
+    if ((fd_write = open(argv[2], O_WRONLY | O_CREAT, 0333)) < 0)
     {
         printf("Can\'t open file\n");
         exit(0);

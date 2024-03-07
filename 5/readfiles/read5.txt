@@ -1,26 +1,26 @@
-ehT beW dna eht tenretnI
-ehT beW si ton lacitnedi ot eht ;tenretnI ti si ylno eno fo eht ynam desab-tenretnI noitacinummoc .secivres
+The Web and the Internet
+The Web is not identical to the Internet; it is only one of the many Internet-based communication services.
 
-ehT noitaler neewteb meht yam eb dootsrednu yb gnisu eht ygolana htiw eht labolg daor .metsys
+The relation between them may be understood by using the analogy with the global road system.
 
-nO eht ,tenretnI sa ni eht daor ,metsys eerht stnemele era :laitnesse eht lacisyhp snoitcennoc sdaor( dna ,)selbac eht nommoc ruoivaheb noitalucric( selur dna tenretnI )locotorp dna eht secivres liam( yreviled dna eht .)WWW
+On the Internet, as in the road system, three elements are essential: the physical connections (roads and cables), the common behaviour (circulation rules and Internet protocol) and the services (mail delivery and the WWW).
 
-ehT lacisyhp :snoitcennoc selbac dna sdaor
+The physical connections: cables and roads
 
-selbaC era a evissap ,erutcurtsarfni dial nwod yllacol yb stnemnrevog dna smocelet .seinapmoc selbaC evah tnereffid :yticapac a elgnis enohpelet enil ekil eht eno gnidael morf ruoy emoh nac eldnah tuoba 7 setybolik rep ,dnoces eht tnelaviuqe fo a egap fo txet rep .dnoces lacitpO serbif eldnah llew otni eht dnasuoht snoillim fo setyb rep .dnoces
+Cables are a passive infrastructure, laid down locally by governments and telecoms companies. Cables have different capacity: a single telephone line like the one leading from your home can handle about 7 kilobytes per second, the equivalent of a page of text per second. Optical fibres handle well into the thousand millions of bytes per second.
 
-hguohtlA eht selbac yam eb fo tnereffid sepyt dna eht snoitcnuj yam eb yrev ,detacilpmoc yeht era lla .detcennocretni
+Although the cables may be of different types and the junctions may be very complicated, they are all interconnected.
 
-nO eht sdaor ti si elbissop rof uoy ot evird morf emoh tuo ot a raf yawa ,ecalp spahrep ni rehtona ,yrtnuoc gnissap morf syawhgih ot yrtnuoc .sdaor ,ylralimiS uoy nac dnif a suounitnoc noitcennoc hguorht lareves egnahcretni sedon neewteb ruoy retupmoc ta emoh dna eht eno fo a dneirf ni .ailartsuA
+On the roads it is possible for you to drive from home out to a far away place, perhaps in another country, passing from highways to country roads. Similarly, you can find a continuous connection through several interchange nodes between your computer at home and the one of a friend in Australia.
 
-ehT nommoc :ruoivaheb eht tenretnI
+The common behaviour: the Internet
 
-gnitcennoC sretupmoc ot eht selbac si ton :hguone ot eb elba ot klat ot hcae rehto yeht evah ot eerga no a nommoc yaw fo ,gnivaheb tsuj ekil ew od nehw ew evird ruo srac no eht .sdaor ehT tenretnI si ekil eht ciffart :selur sretupmoc tsum esu eht selbac ni na deerga .noihsaf
+Connecting computers to the cables is not enough: to be able to talk to each other they have to agree on a common way of behaving, just like we do when we drive our cars on the roads. The Internet is like the traffic rules: computers must use the cables in an agreed fashion.
 
-sdnasuohT fo srac nac esu eht emas sdaor neve fi yeht lla evah tnereffid ;snoitanitsed on smelborp esira sa gnol sa no eht daor ydobyreve sevird no eno ,edis pots rof der ciffart sthgil dna os .no
+Thousands of cars can use the same roads even if they all have different destinations; no problems arise as long as on the road everybody drives on one side, stop for red traffic lights and so on.
 
-ehT tenretnI srefsnart atad ni elttil stekcap neewteb .sretupmoc oT esu eht selbac neewteb meht ,ylbatiforp sretupmoc tsum yebo selur :oot yeht evah ot esu eht emas noitacinummoc .locotorp
+The Internet transfers data in little packets between computers. To use the cables between them profitably, computers must obey rules too: they have to use the same communication protocol.
 
-A noitacinummoc locotorp si gnihtemos uoy era railimaf htiw fi uoy evah reve deklat ot :enoemos ni a ,noitasrevnoc elpoep wonk nehw ot trats ,gnikaeps nehw ot ,pots hcihw sdnuos ot ekam ot egaruocne eht rehto nosrep ot ,eunitnoc dna os .no sihT si na ticilpmi "locotorp" rof .snamuh sretupmoC gnignahcxe atad revo selbac deen a ralimis tes fo selur rof .roivaheb
+A communication protocol is something you are familiar with if you have ever talked to someone: in a conversation, people know when to start speaking, when to stop, which sounds to make to encourage the other person to continue, and so on. This is an implicit "protocol" for humans. Computers exchanging data over cables need a similar set of rules for behavior.
 
-oT eb detcennoc" ot eht ,"tenretnI a retupmoc tsum tcepser eht tenretnI .slocotorp tI nac od os fi a elbitapmoc reyal fo erawtfos sah neeb dellatsni no .ti ehT nommoc locotorp rof eht tenretnI si dellac eht noissimsnarT lortnoC locotorP / tenretnI locotorP ro .PI/PCT
+To be "connected to the Internet", a computer must respect the Internet protocols. It can do so if a compatible layer of software has been installed on it. The common protocol for the Internet is called the Transmission Control Protocol / Internet Protocol or TCP/IP.

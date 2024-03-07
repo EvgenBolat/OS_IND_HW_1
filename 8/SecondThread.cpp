@@ -37,36 +37,41 @@ int main()
         printf("second thread: Can\'t read string from pipe 2\n");
         exit(0);
     }
-    char word[size_read];
-    int wordLength = 0;
-    for (size_t i = 0; i < size_read; i++)
-    {
-        if (str_buf[i] == '\b' || str_buf[i] == ' ' || str_buf[i] == '\t' || str_buf[i] == '\n')
+    char new_str[size_read];
+        int newStrLength = 0;
+        char word[size_read];
+        int wordLength = 0;
+        for (int i = size_read - 1; i > -1; --i)
         {
-            for (size_t j = wordLength; j > 0; j--)
+            if (str_buf[i] == '\b' || str_buf[i] == ' ' || str_buf[i] == '\t' || str_buf[i] == '\n')
             {
-                str_buf[i - j] = word[j - 1];
+                for (int j = wordLength - 1; j > -1; --j)
+                {
+                    new_str[newStrLength] = word[j];
+                    ++newStrLength;
+                }
+                new_str[newStrLength] = str_buf[i];
+                ++newStrLength;
+                wordLength = 0;
             }
-            wordLength = 0;
-            continue;
+            else
+            {
+                word[wordLength] = str_buf[i];
+                ++wordLength;
+            }
         }
-        else
+        for (int z = wordLength - 1; z > -1; z--)
         {
-            word[wordLength] = str_buf[i];
-            ++wordLength;
+            new_str[newStrLength] = word[z];
+            ++newStrLength;
         }
-    }
-    for (size_t j = wordLength; j > 0; j--)
-    {
-        str_buf[size_read - j] = word[j - 1];
-    }
     int fd_write = 0;
     if ((fd_write = open(secondPipeName, O_WRONLY)) < 0)
     {
         printf("third thread: Can\'t open file\n");
         exit(0);
     }
-    int size_write = write(fd_write, str_buf, size_read);
+    int size_write = write(fd_write, new_str, size_read);
     if (size_write != size_read)
     {
         printf("thread 2: Can\'t write all string to pipe\n");
