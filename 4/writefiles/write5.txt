@@ -1,26 +1,26 @@
-ehT beW dna eht tenretnI
-ehT beW si ton lacitnedi ot eht ;tenretnI ti si ylno eno fo eht ynam desab-tenretnI noitacinummoc .secivres
+TCP/IP. or Protocol Internet / Protocol Control Transmission the called is Internet the for protocol common The it. on installed been has software of layer compatible a if so do can It protocols. Internet the respect must computer a Internet", the to "connected be To
 
-ehT noitaler neewteb meht yam eb dootsrednu yb gnisu eht ygolana htiw eht labolg daor .metsys
+behavior. for rules of set similar a need cables over data exchanging Computers humans. for "protocol" implicit an is This on. so and continue, to person other the encourage to make to sounds which stop, to when speaking, start to when know people conversation, a in someone: to talked ever have you if with familiar are you something is protocol communication A
 
-nO eht ,tenretnI sa ni eht daor ,metsys eerht stnemele era :laitnesse eht lacisyhp snoitcennoc sdaor( dna ,)selbac eht nommoc ruoivaheb noitalucric( selur dna tenretnI )locotorp dna eht secivres liam( yreviled dna eht .)WWW
+protocol. communication same the use to have they too: rules obey must computers profitably, them between cables the use To computers. between packets little in data transfers Internet The
 
-ehT lacisyhp :snoitcennoc selbac dna sdaor
+on. so and lights traffic red for stop side, one on drives everybody road the on as long as arise problems no destinations; different have all they if even roads same the use can cars of Thousands
 
-selbaC era a evissap ,erutcurtsarfni dial nwod yllacol yb stnemnrevog dna smocelet .seinapmoc selbaC evah tnereffid :yticapac a elgnis enohpelet enil ekil eht eno gnidael morf ruoy emoh nac eldnah tuoba 7 setybolik rep ,dnoces eht tnelaviuqe fo a egap fo txet rep .dnoces lacitpO serbif eldnah llew otni eht dnasuoht snoillim fo setyb rep .dnoces
+fashion. agreed an in cables the use must computers rules: traffic the like is Internet The roads. the on cars our drive we when do we like just behaving, of way common a on agree to have they other each to talk to able be to enough: not is cables the to computers Connecting
 
-hguohtlA eht selbac yam eb fo tnereffid sepyt dna eht snoitcnuj yam eb yrev ,detacilpmoc yeht era lla .detcennocretni
+Internet the behaviour: common The
 
-nO eht sdaor ti si elbissop rof uoy ot evird morf emoh tuo ot a raf yawa ,ecalp spahrep ni rehtona ,yrtnuoc gnissap morf syawhgih ot yrtnuoc .sdaor ,ylralimiS uoy nac dnif a suounitnoc noitcennoc hguorht lareves egnahcretni sedon neewteb ruoy retupmoc ta emoh dna eht eno fo a dneirf ni .ailartsuA
+Australia. in friend a of one the and home at computer your between nodes interchange several through connection continuous a find can you Similarly, roads. country to highways from passing country, another in perhaps place, away far a to out home from drive to you for possible is it roads the On
 
-ehT nommoc :ruoivaheb eht tenretnI
+interconnected. all are they complicated, very be may junctions the and types different of be may cables the Although
 
-gnitcennoC sretupmoc ot eht selbac si ton :hguone ot eb elba ot klat ot hcae rehto yeht evah ot eerga no a nommoc yaw fo ,gnivaheb tsuj ekil ew od nehw ew evird ruo srac no eht .sdaor ehT tenretnI si ekil eht ciffart :selur sretupmoc tsum esu eht selbac ni na deerga .noihsaf
+second. per bytes of millions thousand the into well handle fibres Optical second. per text of page a of equivalent the second, per kilobytes 7 about handle can home your from leading one the like line telephone single a capacity: different have Cables companies. telecoms and governments by locally down laid infrastructure, passive a are Cables
 
-sdnasuohT fo srac nac esu eht emas sdaor neve fi yeht lla evah tnereffid ;snoitanitsed on smelborp esira sa gnol sa no eht daor ydobyreve sevird no eno ,edis pots rof der ciffart sthgil dna os .no
+roads and cables connections: physical The
 
-ehT tenretnI srefsnart atad ni elttil stekcap neewteb .sretupmoc oT esu eht selbac neewteb meht ,ylbatiforp sretupmoc tsum yebo selur :oot yeht evah ot esu eht emas noitacinummoc .locotorp
+WWW). the and delivery (mail services the and protocol) Internet and rules (circulation behaviour common the cables), and (roads connections physical the essential: are elements three system, road the in as Internet, the On
 
-A noitacinummoc locotorp si gnihtemos uoy era railimaf htiw fi uoy evah reve deklat ot :enoemos ni a ,noitasrevnoc elpoep wonk nehw ot trats ,gnikaeps nehw ot ,pots hcihw sdnuos ot ekam ot egaruocne eht rehto nosrep ot ,eunitnoc dna os .no sihT si na ticilpmi "locotorp" rof .snamuh sretupmoC gnignahcxe atad revo selbac deen a ralimis tes fo selur rof .roivaheb
+system. road global the with analogy the using by understood be may them between relation The
 
-oT eb detcennoc" ot eht ,"tenretnI a retupmoc tsum tcepser eht tenretnI .slocotorp tI nac od os fi a elbitapmoc reyal fo erawtfos sah neeb dellatsni no .ti ehT nommoc locotorp rof eht tenretnI si dellac eht noissimsnarT lortnoC locotorP / tenretnI locotorP ro .PI/PCT
+services. communication Internet-based many the of one only is it Internet; the to identical not is Web The
+Internet the and Web The
